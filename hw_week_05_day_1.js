@@ -115,31 +115,31 @@
 
 //Episode 7
 
-// let murderer = 'Professor Plum';
+let murderer = 'Professor Plum';
 
-// const changeMurderer = function() {
-//   murderer = 'Mr. Green';
+const changeMurderer = function() {
+  murderer = 'Mr. Green';
 
-//   const plotTwist = function() {
-//     let murderer = 'Colonel Mustard';
+  const plotTwist = function() {
+    let murderer = 'Colonel Mustard';
 
-//     const unexpectedOutcome = function() {
-//       murderer = 'Miss Scarlet';
-//     }
+    const unexpectedOutcome = function() {
+      murderer = 'Miss Scarlet';
+    }
 
-//     unexpectedOutcome();
-//   }
+    unexpectedOutcome();
+  }
 
-//   plotTwist();
-// }
+  plotTwist();
+}
 
-// const declareMurderer = function() {
-//   return `The murderer is ${murderer}.`;
-// }
+const declareMurderer = function() {
+  return `The murderer is ${murderer}.`;
+}
 
-// changeMurderer();
-// const verdict = declareMurderer();
-// console.log(verdict);
+changeMurderer();
+const verdict = declareMurderer();
+console.log(verdict);
 
 //PREDICTION The murderer will be Miss Scarlet INCORRECT Yeah not really sure why, perhaps because of the let on line 124? Yeah it was that
 
@@ -184,17 +184,17 @@
 
 //Episode 9
 
-let murderer = 'Professor Plum';
+// let murderer = 'Professor Plum';
 
-if (murderer === 'Professor Plum') {
-  let murderer = 'Mrs. Peacock';
-}
+// if (murderer === 'Professor Plum') {
+//   let murderer = 'Mrs. Peacock';
+// }
 
-const declareMurderer = function() {
-  return `The murderer is ${murderer}.`;
-}
+// const declareMurderer = function() {
+//   return `The murderer is ${murderer}.`;
+// }
 
-const verdict = declareMurderer();
-console.log(verdict);
+// const verdict = declareMurderer();
+// console.log(verdict);
 
 //PREDICTION: The murderer will still be Professor Plum as the murderer is defined within an if statement CORRECT
